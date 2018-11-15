@@ -19,14 +19,14 @@ while(choice !=4)
 cin>> choice;
 switch(choice)
         {
-            case 1:// cout<<”Enter the element to push”;
+            case 1:
 cin>>val;
 push(val);
 break;
-            case 2: // cout<<”Enter the element to pop”;
+            case 2: 
 pop();
 break;
-            case 3:// cout<<”Display the stack elements”;
+            case 3:
 display();
 break;
 default:
@@ -47,9 +47,9 @@ void push(int x)
 }
 void pop()
 { if(top==-1)
-cout<<"underflow sir!"<<endl;
+cout<<"underflow"<<endl;
 else
-{cout<<"deleted element is"<<" "<<Stack[top--]<<endl;
+{cout<<"deleted element"<<" "<<Stack[top--]<<endl;
 }
 }
 void display()
